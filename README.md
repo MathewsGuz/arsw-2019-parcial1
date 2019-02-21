@@ -27,10 +27,53 @@ Almacene dicha información en memoria volatil
 
 
 Utilice el nombre del recurso "uuid" es decir cuando se trate de acceder al recurso para consultarlo la url debería ser
-` http://localhost:8080/primes` utilizando el verbo GET
+` http://localhost:8080/uuid` utilizando el verbo GET
 
 
 y para registrarlo debería ser la misma pero usando el verbo POST
 
 # Preguntas Teoría
+Conteste las siguientes preguntas en una archivo .txt
+
+Establezca verdadero o falso en las siguientes sentencias:
+- Rest es un protocolo que permite la interoperabilidad
+- Rest es una tecnología que está basada sobre el protocolo http
+- SOAP es un protocolo que tiene el objetivo tranferir mensajes entre aplicaciones distribuidas
+- Los componentes de rest son nouns,Adjectives,Representations
+- Los componentes de rest son nouns,verbs,Representations
+- Los componentes de rest son nouns,Adjectives,Representations
+- SOA es un protocolo de transferencia de mensajes entre aplicaciones distribuidas
+- Uno de los principios SOA es baja densidad
+
+Explique cada uno de los niveles de madurez de REST
+
+Cuales son los componetes del SOAP-ENVELOPE y para que sirven
+
+Defina la diferencia de un estilo arquitectónico cliente servidor y un P2P
+
+Escriba un ejemplo de un programa P2P y explique por que es P2P
+
 # Subida
+
+Siga al pie de la letra estas indicaciones para la entrega de este punto. EL HACER CASO OMISO DE ESTAS INSTRUCCIONES PENALIZARÁ LA NOTA.
+
+Limpie los dos proyectos. Entre a los directorios 'GuidFinderDesktop' y 'GuidFinderAPI' y ejecute:
+
+`$ mvn clean`
+Configure su usuario de GIT
+
+`$ git config --global user.name "Juan Perez"`
+`$ git config --global user.email juan.perez@escuelaing.edu.co`
+
+Desde el directorio raíz (donde está este archivo README.md), haga commit de lo realizado.
+
+`$ git add .`
+`$ git commit -m "entrega parcial - Juan Perez"`
+Desde este mismo directorio, comprima todo con: (no olvide el punto al final de la instrucción)
+
+`$ zip -r APELLIDO.NOMBRE.zip .`
+Abra el archivo ZIP creado, y rectifique que contenga lo desarrollado.
+
+Suba el archivo antes creado (APELLIDO.NOMBRE.zip) en el espacio de moodle correspondiente.
+
+IMPORTANTE!. Conserve una copia de la carpeta y del archivo .ZIP.
