@@ -69,9 +69,11 @@ Desde el directorio raíz (donde está este archivo README.md), haga commit de l
 
 `$ git add .`
 `$ git commit -m "entrega parcial - Juan Perez"`
+
 Desde este mismo directorio, comprima todo con: (no olvide el punto al final de la instrucción)
 
 `$ zip -r APELLIDO.NOMBRE.zip .`
+
 Abra el archivo ZIP creado, y rectifique que contenga lo desarrollado.
 
 Suba el archivo antes creado (APELLIDO.NOMBRE.zip) en el espacio de moodle correspondiente.
