@@ -12,7 +12,7 @@ Haga que el programa mantenga inactivos los hilos (sin esperas activas!), hasta 
 En el proyecto GuidFinderAPI construya un API rest que registre y consulte historicos de las busquedas realizadas. Cada vez que finaliza una búsqueda el sistema debería registrar (por medio del api rest )  los siguientes datos
 Fecha de busqueda, UUID buscado,cantidad encontrada
 
-De igual manera el API rest debería permitir la consulta de todas las busquedas de UUID´s utilizando la siguiente representación JSON
+De igual manera el API rest debería permitir la consulta de todas las busquedas de UUID´s utilizando la siguiente representación JSON 
 `
 {
 "Fecha":"2019-02-21T05:10:00",
